@@ -1,11 +1,11 @@
 package la.bean;
 
-public class useBean {
+public class UseBean {
 	private int visitorId;
 	private String useTime;
 	private int attractionId;
 	
-	public useBean(int visitorId, String useTime, int attractionId) {
+	public UseBean(int visitorId, String useTime, int attractionId) {
 		this.visitorId = visitorId;
 		this.useTime = useTime;
 		this.attractionId = attractionId;

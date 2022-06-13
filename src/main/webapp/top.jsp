@@ -16,7 +16,7 @@
 		<h1 class="display-4">アトラクション選択</h1>
 	</header>
 	<form
-		action="/attraction/ReserveServlet?action=reserve&visitor_id=${visitor.visitorId}"
+		action="/attraction/ReserveServlet?action=reserve&visitor_id=${login}"
 		method="post">
 		<select name="attraction">
 			<c:forEach items="${attraction}" var="item">
